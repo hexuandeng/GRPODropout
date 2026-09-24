@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.gemini/
+.idea/
+
+# Runtime / experiment artifacts
+outputs/
+rollout_logs/
+eval_results/
+eval_out/
+checkpoints/
+wandb/
+*.log
+nohup.out
+
+# Large data & model weights (see data/README.md for how to rebuild)
+data/**/*.parquet
+data/**/*.jsonl
+models/
+._*

@@ -28,7 +28,6 @@ GRPODropout/
 │   ├── verl/trainer/ppo/              # integration points (selector call, high-entropy loss)
 │   └── analyze/                       # post-hoc analysis & dashboard scripts
 ├── eval/                              # evaluation harness (greedy / sampling / held-out)
-├── path_diversity_analysis/           # rollout path-diversity analysis (cosine + LLM-judge)
 └── data/                             # dataset preparation scripts (data files not shipped)
 ```
 

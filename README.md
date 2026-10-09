@@ -1,4 +1,4 @@
-# GRPO-Dropout
+# GRPODropout: Less is More for Online Reinforcement Learning Rollouts
 
 Code release for our study of **covariance / entropy-guided rollout deletion**
 on top of GRPO. During RL fine-tuning of LLMs, instead of updating on every
